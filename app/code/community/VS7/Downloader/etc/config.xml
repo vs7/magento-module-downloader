@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <VS7_Downloader>
+            <version>0.1.0</version>
+        </VS7_Downloader>
+    </modules>
+    <global>
+        <models>
+            <vs7_downloader>
+                <class>VS7_Downloader_Model</class>
+            </vs7_downloader>
+        </models>
+        <events>
+            <controller_front_send_response_before>
+                <observers>
+                    <vs7_downloader>
+                        <class>VS7_Downloader_Model_Observer</class>
+                        <method>processFile</method>
+                    </vs7_downloader>
+                </observers>
+            </controller_front_send_response_before>
+        </events>
+    </global>
+</config>

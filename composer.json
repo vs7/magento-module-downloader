@@ -1,0 +1,27 @@
+{
+    "name":"vs7/magento-module-downloader",
+    "type":"magento-module",
+    "version":"0.1.0",
+    "license": "OSL-3.0",
+    "description": "Magento extension. A workaround for files not downloading when behind Cloudflare.",
+    "keywords": [
+        "magento",
+        "magento1",
+        "vs7",
+        "cloudflare",
+        "download",
+        "admin",
+        "HTTP2"
+    ],
+    "authors": [
+        {
+            "name": "VS7, Vladislav Gevlich",
+            "email": "vs7develop@gmail.com",
+            "homepage": "https://vs7.io"
+        }
+    ],
+    "homepage": "https://github.com/vs7/magento-module-downloader",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
